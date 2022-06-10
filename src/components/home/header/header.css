@@ -1,0 +1,79 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    flex:1;
+    margin-top:3px;
+   padding: 12px;
+    position: relative;
+    align-items: center;
+    background-color:#B6BFCD;
+    border-radius: 4px;
+
+}
+.menu {
+    
+    display: flex;
+    padding-left:10px;
+    flex:1;
+    justify-content: flex-end;
+}
+.menuicon {
+    font-size: 24px;
+}
+.mob {
+    display: none;
+}
+.Web {
+    display: flex;
+
+}
+.teamName {
+    display: flex;
+    font-size: 36px;
+    transition: transform 2s;
+    
+    color:rgb(44, 9, 158);
+    font-weight: 800;;
+}
+.teamName:hover {
+    color: rgb(228, 129, 24);
+    transform: rotateY(360deg);
+}
+@media (prefers-reduced-motion: no-preference) {
+    .teamName {
+        animation: bounce 0.5s;
+    
+    animation-iteration-count: 3;
+    animation:nameeff 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    }
+  }
+  /* @keyframes bounce{
+    from { transform: translate3d(0, 0, 0);}
+    to { transform: translate3d(0, 30px, 0);}
+  }
+  @keyframes nameeff {
+    from {color: red;}
+    to {color: rgb(44, 208, 110);}
+    from { transform: translate3d(0, 0, 0);}
+    to { transform: translate3d(50px, 50px, 50px);}
+      
+  } */
+
+@media only screen and (max-width: 720px){
+    .mob {
+        display: flex;
+       
+    }
+    .Web {
+        display: none;
+    }
+    .teamname {
+        font-size: 20px;
+      
+        pointer-events: none;
+        
+    }
+    
+}

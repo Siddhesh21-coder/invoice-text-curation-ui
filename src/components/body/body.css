@@ -1,0 +1,38 @@
+.body {
+    margin: 28px 10px;
+    font-size: 24px;
+}
+.bodytext {
+    display: flex;
+    font-size: 24px;
+    font-weight: 600;
+    color:cadetblue;
+    justify-content:flex-start;
+    flex:1;   
+}
+.body-img {
+    padding-top: 50px ;
+    display: flex;
+    flex:1;
+    padding-bottom: 100px;
+}
+.bodyimg1 {
+    width: 50%;
+    padding-left: 5px;
+    justify-content: flex-start;
+    border-radius: 5px;
+}
+.bodyimg2 {
+    width: 50%;
+    padding-left: 5px;
+    justify-content: flex-start;
+    border-radius: 5px;
+}
+.separator {
+    background-image: linear-gradient(to right top, #bb2078, #b0288b, #a0339d, #8a3ead, #6b49bb, #565dcb, #3b6fd8, #007fe2, #009bec, #00b2e9, #00c7dd, #2fdacf);
+    height: 6px;
+    width: 40%;
+    border-radius: 3px;
+    margin: 16px 0px;
+    margin-bottom: 20px;
+}
